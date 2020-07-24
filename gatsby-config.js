@@ -22,7 +22,7 @@ module.exports = {
         {
             resolve: `gatsby-remark-page-creator`,
             options: {
-                
+
             }
         },
         {
@@ -31,6 +31,12 @@ module.exports = {
                 sourceUrlPath: `fields.url`,
                 pageContextProperty: `menus`,
             }
-        }
+        },
+        {
+            resolve: 'gatsby-plugin-mailchimp',
+            options: {
+                endpoint: 'https://thekatapult.us19.list-manage.com/subscribe/post?u=d52cc4e7601119e917843acfa&id=3e03882ccb',
+            },
+        },
     ]
 };
