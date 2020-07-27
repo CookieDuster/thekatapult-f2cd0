@@ -28,9 +28,6 @@ const NewsletterForm = () => {
       <input name="email" placeholder="E-mail" type="email" required onChange={onChange} />
       <div style={{ fontSize: 16, marginBottom: 20 }}>
         Prijavom na nasu listu prihvatate uslove koriscenja sajta{" "}
-        <a href="http://thekatapult.com/" style={{ color: "#030047" }}>
-          theKatapult.com
-        </a>
       </div>
       <button type="submit" style={{ backgroundColor: "#030047" }}>
         Prijavi se!
