@@ -20,14 +20,14 @@ const NewsletterForm = () => {
   }
 
   if (submitted) {
-    return <h2>Uspeh!</h2>
+    return <h2>Bravo! Baci pogled na email.</h2>
   }
 
   return (
     <form onSubmit={onSubmit}>
       <input name="email" placeholder="E-mail" type="email" required onChange={onChange} />
       <div style={{ fontSize: 16, marginBottom: 20 }}>
-        Prijavom na nasu listu prihvatate uslove koriscenja sajta{" "}
+        Prijavom na nasu listu prihvatate uslove koriscenja sajta i liste.{" "}
       </div>
       <button type="submit" style={{ backgroundColor: "#030047" }}>
         Prijavi se!
